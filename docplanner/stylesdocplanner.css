@@ -1,0 +1,341 @@
+body {
+  margin: 0px;
+  position: static;
+}
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  margin-top: 0;
+  z-index: 1;
+}
+/* logo */
+.logo-nav {
+  padding-left: 170px;
+}
+.linkdocplanner {
+  width: 268px;
+  height: 68px;
+}
+.image_docplanner {
+  width: 268px;
+}
+
+/* aboutus career departement */
+.menu li {
+  margin: 10px;
+}
+.menu a {
+  text-decoration: none;
+  color: #ababab;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+span {
+  color: #00b39b;
+}
+.departement-menu {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  padding-top: 10px;
+  background-color: white;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+.dropdown:hover .departement-menu {
+  display: block;
+  width: 250px;
+  margin-left: -150px;
+}
+ul li a:hover {
+  color: #00b39b;
+}
+.nav-menu {
+  padding-right: 170px;
+}
+/* section intro */
+#intro {
+  margin-left: 167px;
+  margin-right: 100px;
+  padding-top: 90px;
+  position: relative;
+  text-align: center;
+}
+#making h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 50;
+  letter-spacing: -0.3px;
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.paragraphs {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+}
+.paragraphs p {
+  line-height: 1.75;
+  font-weight: 400;
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+  text-align: left;
+  margin: 10px;
+}
+/* section 2  */
+#section2 {
+  display: flex;
+  margin: 60px 200px 40px;
+  padding: 20px 0;
+  width: 70%;
+}
+.cadre {
+  border-radius: 15px;
+  margin-right: 15px;
+  padding: 32px 32px;
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  width: 30%;
+}
+#box1 {
+  background-color: #00b39b;
+}
+#box2 {
+  background-color: #3d83df;
+}
+#box3 {
+  background-color: #1b2734;
+}
+.cadre h1 {
+  font-size: 1.625em;
+  font-weight: bold;
+}
+.cadre h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1;
+  margin: 0;
+}
+.select-country #countries {
+  background: transparent;
+  border: 0;
+  padding: 0 2em 0 0;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#countries {
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+#countries option {
+  color: black;
+}
+#countries option p {
+  font-size: 400;
+}
+/* section 3  */
+#section3 {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#section3 .transition p {
+  color: #00b39b;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.625em;
+  width: 200px;
+}
+.brands li {
+  list-style: none;
+  display: inline;
+}
+.brands svg {
+  width: 125px;
+  margin: 10px 10px;
+  fill: grey;
+}
+.brands svg:hover {
+  fill: #017061;
+}
+.brands img {
+  margin: 0 10px;
+  filter: grayscale(100%);
+}
+.brands img:hover {
+  filter: grayscale(0%);
+}
+/* section4 */
+#section4 {
+  display: flex;
+  width: 100%;
+  background: #e5faf8;
+  background-image: url(/img/logo.png);
+  background-repeat: no-repeat;
+  background-position: 5% 145%;
+}
+.title h1 {
+  width: 300px;
+  height: 100px;
+  margin-left: 200px;
+  padding-top: 50px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.125rem;
+  font-weight: 300;
+  color: #00b39b;
+}
+.title p {
+  width: 450px;
+  height: 100px;
+  margin-left: 200px;
+  padding-top: 10px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 0.875em;
+  color: #747474;
+}
+.c1,
+.c2,
+.c3,
+.c4 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  height: 250px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 0.8125em;
+}
+.c1 {
+  margin: 50px 20px 20px;
+}
+.c2,
+.c3,
+.c4 {
+  margin: 20px 20px;
+}
+.col1 h3,
+.col2 h3 {
+  font-size: 1.8em;
+  color: #00b39b;
+  margin: 10px 10px;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+}
+.col1 p,
+.col2 p {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  padding: 20px 10px;
+}
+.before-pics h1 {
+  width: 500px;
+  margin: 50px auto 10px;
+  padding-top: 50px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.125rem;
+  font-weight: 300;
+  text-align: center;
+  color: #00b39b;
+}
+.before-pics p {
+  width: 450px;
+  margin: 10px auto;
+  padding-top: 10px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 0.875em;
+  color: #747474;
+  line-height: 1.7;
+  text-align: center;
+}
+.pics {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 20px 200px;
+}
+.pics a {
+  text-decoration: none;
+  font-family: Roboto, Arial, sans-serif;
+}
+.style-link {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+  max-width: 311px;
+  position: relative;
+  display: block;
+  color: #747474;
+}
+.under-pic {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1cm;
+  padding: 1em;
+}
+.bouton {
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.17em 1.5em;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  float: right;
+}
+.btn {
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.17em 1.5em;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#section6 .centered {
+  margin: 80px 450px;
+  text-align: center;
+}
+#section6 h1 {
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  color: #333;
+  margin: 80px auto 20px;
+}
+footer .content-footer {
+  font-size: 12px;
+  color: #ababab;
+  margin: 0 167px;
+  font-family: Roboto, Arial, sans-serif;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
